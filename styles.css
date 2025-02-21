@@ -76,53 +76,6 @@ nav a:hover {
   box-shadow: 0 0 15px rgba(0, 255, 255, 0.9);
 }
 
-/* SECTIONS */
-section {
-  margin: 2rem auto;
-  padding: 2rem;
-  max-width: 800px;
-  background: rgba(10, 10, 25, 0.8);
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 255, 255, 0.8);
-}
-
-/* ROADMAP */
-ol {
-  list-style: none;
-  padding-left: 0;
-}
-
-ol li {
-  background: linear-gradient(90deg, rgba(255, 0, 255, 0.3), rgba(0, 255, 255, 0.3));
-  padding: 0.75rem;
-  margin: 0.5rem 0;
-  border-radius: 5px;
-  box-shadow: 0 0 8px rgba(0, 255, 255, 0.8);
-}
-
-ol li strong {
-  color: #00ffff;
-  font-weight: bold;
-}
-
-
-/* FOOTER LINKS */
-.footer-links {
-  margin-top: 1rem;
-  text-align: center;
-}
-
-.footer-links a {
-  color: #00ffff;
-  font-weight: bold;
-  text-decoration: none;
-  transition: color 0.3s ease-in-out;
-}
-
-.footer-links a:hover {
-  color: #ff00ff;
-}
-
 /* DISCLAIMER */
 .disclaimer {
   font-size: 0.9rem;
@@ -135,4 +88,31 @@ ol li strong {
   border-radius: 10px;
   border: 1px solid #ff00ff;
   box-shadow: 0 0 10px rgba(255, 0, 255, 0.8);
+}
+
+/* CONTACT & LINKS BOX */
+.footer-box {
+  max-width: 600px;
+  margin: 1rem auto;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  border: 1px solid #00ffff;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
+}
+
+.footer-box p {
+  margin: 0.5rem 0;
+}
+
+/* FOOTER LINKS */
+.footer-box a {
+  color: #00ffff;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-box a:hover {
+  color: #ff00ff;
 }
