@@ -17,37 +17,10 @@ html, body {
 
 /* HEADER */
 header {
-  display: flex;
-  justify-content: space-between; /* Keeps icons on the sides */
-  align-items: center;
-  padding: 1rem;
   text-align: center;
-  position: relative;
+  padding: 1.5rem;
   background: linear-gradient(90deg, #ff00ff, #00ffff);
-}
-
-/* HEADER ICONS */
-.token-icon {
-  width: 140px; /* Adjusted for better scaling */
-  height: auto;
-  max-width: 180px;
-  filter: drop-shadow(0 0 10px rgba(255, 0, 255, 0.8));
-}
-
-.token-icon.left {
-  position: absolute;
-  left: 5%;
-}
-
-.token-icon.right {
-  position: absolute;
-  right: 5%;
-}
-
-/* CENTER CONTENT ENSURED */
-.header-content {
-  flex-grow: 1;
-  text-align: center;
+  color: #000;
 }
 
 .header-content h1 {
@@ -117,14 +90,6 @@ section {
   color: #00ffff;
 }
 
-/* CENTERING BOTH */
-.footer-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-}
-
 /* FOOTER LINKS */
 .footer-box a {
   color: #00ffff;
@@ -140,21 +105,7 @@ section {
 /* 📱 MOBILE FIX */
 @media (max-width: 768px) {
   header {
-    flex-direction: row;
-    justify-content: center;
     padding: 1rem;
-  }
-
-  .token-icon {
-    width: 80px; /* Smaller on mobile */
-  }
-
-  .token-icon.left {
-    left: 2%;
-  }
-
-  .token-icon.right {
-    right: 2%;
   }
 
   .header-content h1 {
