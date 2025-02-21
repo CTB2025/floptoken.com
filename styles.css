@@ -72,13 +72,6 @@ ol {
   color: #888;                   /* Slightly dim color */
 }
 
-.roadmap-done .status {
-  text-decoration: none; /* Remove strikethrough for the DONE text */
-  color: #00cc88;        /* A contrasting color for DONE */
-  font-weight: bold;
-  margin-left: 0.5rem;
-}
-
 /* FOOTER */
 footer {
   text-align: center;
