@@ -104,6 +104,8 @@ section {
   background: rgba(10, 10, 25, 0.9);
   border: 1px solid #ff00ff;
   box-shadow: 0 0 10px rgba(255, 0, 255, 0.8);
+  align-items: center;
+  position:relative;
   color: #ff00ff;
   font-size: 0.9rem;
 }
