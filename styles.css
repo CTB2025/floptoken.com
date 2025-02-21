@@ -92,6 +92,8 @@ section {
 .footer-box {
   max-width: 700px;
   margin: 1rem auto;
+  align-items: center;
+  position:relative;
   padding: 1.5rem;
   text-align: center;
   border-radius: 10px;
