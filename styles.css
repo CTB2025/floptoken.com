@@ -1,5 +1,6 @@
-/* Basic styling for FLOP Coin GitHub Pages site */
+/* Basic styling for the FLOP Token GitHub Pages site */
 
+/* GLOBAL RESETS */
 html, body {
   margin: 0;
   padding: 0;
@@ -8,7 +9,7 @@ html, body {
   color: #333;
 }
 
-/* Header Navigation */
+/* HEADER & NAV */
 header {
   background: #000;
   color: #fff;
@@ -32,7 +33,7 @@ nav a {
   font-weight: bold;
 }
 
-/* Main Content */
+/* MAIN CONTAINER */
 main {
   max-width: 800px;
   margin: 2rem auto;
@@ -52,7 +53,7 @@ section h2 {
   margin-bottom: 1rem;
 }
 
-/* Lists */
+/* LIST STYLES */
 ul {
   list-style: disc;
   margin-left: 1.5rem;
@@ -65,7 +66,20 @@ ol {
   margin-top: 0.5rem;
 }
 
-/* Footer */
+/* ROADMAP STEP DONE */
+.roadmap-done {
+  text-decoration: line-through; /* Strikethrough the entire list item */
+  color: #888;                   /* Slightly dim color */
+}
+
+.roadmap-done .status {
+  text-decoration: none; /* Remove strikethrough for the DONE text */
+  color: #00cc88;        /* A contrasting color for DONE */
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
+
+/* FOOTER */
 footer {
   text-align: center;
   padding: 1rem;
