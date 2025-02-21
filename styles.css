@@ -88,7 +88,7 @@ ul li, ol li {
 
 /* ROADMAP */
 .roadmap-done .done-text {
-  text-decoration: line-through;
+  text-decoration: none;
   color: #888;
 }
 
