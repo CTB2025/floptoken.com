@@ -1,6 +1,6 @@
-/* Basic styling for the FLOP Coin GitHub Pages site */
+/* Basic styling for FLOP Coin GitHub Pages site */
 
-body {
+html, body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
@@ -8,6 +8,7 @@ body {
   color: #333;
 }
 
+/* Header Navigation */
 header {
   background: #000;
   color: #fff;
@@ -15,7 +16,7 @@ header {
   text-align: center;
 }
 
-h1 {
+header h1 {
   margin: 0;
   font-size: 2rem;
 }
@@ -31,6 +32,7 @@ nav a {
   font-weight: bold;
 }
 
+/* Main Content */
 main {
   max-width: 800px;
   margin: 2rem auto;
@@ -50,16 +52,20 @@ section h2 {
   margin-bottom: 1rem;
 }
 
+/* Lists */
 ul {
   list-style: disc;
   margin-left: 1.5rem;
+  margin-top: 0.5rem;
 }
 
 ol {
   list-style: decimal;
   margin-left: 1.5rem;
+  margin-top: 0.5rem;
 }
 
+/* Footer */
 footer {
   text-align: center;
   padding: 1rem;
