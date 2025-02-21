@@ -1,92 +1,145 @@
-/* Basic styling for the FLOP Token GitHub Pages site */
+/* ============================= */
+/* 🚀 FUTURISTIC VAPORWAVE THEME 🚀 */
+/* ============================= */
 
-/* GLOBAL RESETS */
+/* IMPORT FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Press+Start+2P&display=swap');
+
+/* GLOBAL STYLING */
 html, body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f3f3f3;
-  color: #333;
+  font-family: 'Orbitron', sans-serif; /* Futuristic font */
+  background: radial-gradient(circle, #1a1a2e, #0f0f1f, #05050f);
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0, 255, 255, 0.8); /* Cyan glow */
 }
 
-/* HEADER & NAV */
+/* HEADER */
 header {
-  background: #000;
-  color: #fff;
+  background: linear-gradient(90deg, #ff00ff, #00ffff);
+  color: #000;
   padding: 1rem;
   text-align: center;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.8);
 }
 
 header h1 {
   margin: 0;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 3px 3px 10px rgba(255, 0, 255, 0.8);
 }
 
+/* NAVIGATION */
 nav {
   margin-top: 0.5rem;
 }
 
 nav a {
   text-decoration: none;
-  color: #ffd700;
-  margin: 0 0.5rem;
+  color: #ff00ff;
+  margin: 0 1rem;
   font-weight: bold;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  transition: color 0.3s ease-in-out;
 }
 
-/* MAIN CONTAINER */
+nav a:hover {
+  color: #00ffff;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 1);
+}
+
+/* MAIN CONTENT */
 main {
   max-width: 800px;
   margin: 2rem auto;
-  padding: 1rem;
-  background: #fff;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  border-radius: 8px;
+  padding: 2rem;
+  background: rgba(10, 10, 25, 0.9);
+  border: 2px solid #ff00ff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 0, 255, 0.8);
 }
 
-section {
-  margin-bottom: 2rem;
-}
-
-section h2 {
-  border-bottom: 2px solid #000;
+/* HEADERS */
+h2 {
+  text-transform: uppercase;
+  border-bottom: 2px solid #00ffff;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
+  text-shadow: 2px 2px 5px rgba(255, 0, 255, 0.8);
 }
 
-/* LIST STYLES */
-ul {
-  list-style: disc;
-  margin-left: 1.5rem;
-  margin-top: 0.5rem;
+/* LISTS */
+ul, ol {
+  list-style: none;
+  padding-left: 0;
 }
 
-ol {
-  list-style: decimal;
-  margin-left: 1.5rem;
-  margin-top: 0.5rem;
+ul li, ol li {
+  background: linear-gradient(90deg, rgba(255, 0, 255, 0.3), rgba(0, 255, 255, 0.3));
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(0, 255, 255, 0.8);
 }
 
-/* ROADMAP STEP DONE */
-.roadmap-done {
-  text-decoration: line-through; /* Strikethrough the entire list item */
-  color: #888;                   /* Slightly dim color */
+/* ROADMAP */
+.roadmap-done .done-text {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.roadmap-done .status {
+  text-decoration: none;
+  color: #00cc88;
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
+
+/* BUTTON STYLES */
+button {
+  background: linear-gradient(90deg, #ff00ff, #00ffff);
+  color: #000;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
+}
+
+button:hover {
+  background: linear-gradient(90deg, #00ffff, #ff00ff);
+  box-shadow: 0 0 15px rgba(255, 0, 255, 1);
+  transform: scale(1.05);
 }
 
 /* FOOTER */
 footer {
   text-align: center;
   padding: 1rem;
-  background: #000;
-  color: #fff;
+  background: linear-gradient(90deg, #ff00ff, #00ffff);
+  color: #000;
   margin-top: 2rem;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
 }
 
+/* DISCLAIMER */
 .disclaimer {
   font-size: 0.9rem;
-  color: #888;
-  max-width: 800px;
+  color: #ff00ff;
   text-align: center;
-  margin: 1rem auto; /* Centers it */
+  max-width: 800px;
+  margin: 1rem auto;
   padding: 1rem;
+  background: rgba(10, 10, 25, 0.8);
+  border-radius: 10px;
+  border: 1px solid #ff00ff;
+  box-shadow: 0 0 10px rgba(255, 0, 255, 0.8);
 }
-
