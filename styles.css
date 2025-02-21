@@ -80,3 +80,12 @@ footer {
   color: #fff;
   margin-top: 2rem;
 }
+
+.disclaimer {
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 1rem;
+  max-width: 800px;
+  text-align: center;
+  padding: 1rem;
+}
