@@ -84,8 +84,9 @@ footer {
 .disclaimer {
   font-size: 0.9rem;
   color: #888;
-  margin-top: 1rem;
   max-width: 800px;
   text-align: center;
+  margin: 1rem auto; /* Centers it */
   padding: 1rem;
 }
+
