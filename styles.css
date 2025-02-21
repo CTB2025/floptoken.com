@@ -35,7 +35,7 @@ header, footer {
   gap: 0.5rem;
 }
 
-/* FLOP TOKEN ICONS - LEFT & RIGHT */
+/* FLOP TOKEN ICONS - HEADER */
 .token-icon {
   position: absolute;
   top: 50%;
@@ -43,7 +43,7 @@ header, footer {
   width: 140px;
   height: auto;
   max-width: 200px;
-  filter: drop-shadow(0 0 10px rgba(255, 0, 255, 0.8)); /* Neon glow */
+  filter: drop-shadow(0 0 10px rgba(255, 0, 255, 0.8));
 }
 
 .token-icon.left {
@@ -54,55 +54,18 @@ header, footer {
   right: 20px;
 }
 
-/* NAVIGATION */
-nav {
+/* CENTERED ICONS AROUND DISCLAIMER */
+.footer-content {
   display: flex;
-  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
-nav a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  transition: all 0.3s ease-in-out;
-  background: rgba(255, 0, 255, 0.2);
-  box-shadow: 0 0 10px rgba(255, 0, 255, 0.6);
-}
-
-nav a:hover {
-  background: rgba(0, 255, 255, 0.6);
-  box-shadow: 0 0 15px rgba(0, 255, 255, 0.9);
-}
-
-/* SECTIONS */
-section {
-  margin: 2rem auto;
-  padding: 2rem;
-  max-width: 800px;
-  background: rgba(10, 10, 25, 0.8);
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 255, 255, 0.8);
-}
-
-/* ROADMAP */
-ol {
-  list-style: none;
-  padding-left: 0;
-}
-
-ol li {
-  background: linear-gradient(90deg, rgba(255, 0, 255, 0.3), rgba(0, 255, 255, 0.3));
-  padding: 0.75rem;
-  margin: 0.5rem 0;
-  border-radius: 5px;
-  box-shadow: 0 0 8px rgba(0, 255, 255, 0.8);
-}
-
-ol li strong {
-  color: #00ffff;
-  font-weight: bold;
+.token-icon.left-centered, .token-icon.right-centered {
+  width: 100px;
+  height: auto;
+  max-width: 140px;
 }
 
 /* DISCLAIMER */
@@ -119,14 +82,19 @@ ol li strong {
   box-shadow: 0 0 10px rgba(255, 0, 255, 0.8);
 }
 
-/* LINKS */
-a {
+/* FOOTER LINKS */
+.footer-links {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.footer-links a {
   color: #00ffff;
   font-weight: bold;
   text-decoration: none;
   transition: color 0.3s ease-in-out;
 }
 
-a:hover {
+.footer-links a:hover {
   color: #ff00ff;
 }
