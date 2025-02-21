@@ -121,8 +121,11 @@ section {
 /* CENTERING BOTH */
 .footer-container {
   display: flex;
+  flex-direction: column; /* Stacks elements vertically */
   align-items: center;
   gap: 1rem;
+  text-align: center;
+  width: 100%;
 }
 
 /* FOOTER LINKS */
