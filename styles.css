@@ -1,6 +1,4 @@
-/* ============================= */
 /* 🚀 FUTURISTIC VAPORWAVE THEME 🚀 */
-/* ============================= */
 
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
 
@@ -9,7 +7,8 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'Orbitron', sans-serif;
-  background: url('flop_hd.png') center/cover no-repeat fixed;
+  background: url('flop_hd.png') no-repeat center center fixed;
+  background-size: cover;
   color: #fff;
   text-shadow: 2px 2px 5px rgba(0, 255, 255, 0.8);
   text-align: center;
@@ -17,42 +16,20 @@ html, body {
 
 /* HEADER */
 header {
-  background: rgba(255, 0, 255, 0.2); /* 5% transparency */
+  background: linear-gradient(90deg, #ff00ff, #00ffff);
   padding: 1.5rem;
-  position: relative;
-  text-transform: uppercase;
-  box-shadow: 0 0 20px rgba(255, 0, 255, 0.8);
-}
-
-/* NAVIGATION */
-nav {
   display: flex;
   justify-content: center;
-  gap: 15px;
+  align-items: center;
+  position: relative;
 }
 
-nav a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  transition: all 0.3s ease-in-out;
-  background: rgba(255, 0, 255, 0.2);
-  box-shadow: 0 0 10px rgba(255, 0, 255, 0.6);
-}
-
-nav a:hover {
-  background: rgba(0, 255, 255, 0.6);
-  box-shadow: 0 0 15px rgba(0, 255, 255, 0.9);
-}
-
-/* MAIN SECTIONS */
+/* MAIN SECTIONS WITH TRANSPARENCY */
 section {
   max-width: 900px;
   margin: 2rem auto;
   padding: 1.5rem;
-  background: rgba(10, 10, 25, 0.95); /* 5% transparency */
+  background: rgba(10, 10, 25, 0.95); /* 95% transparency */
   border-radius: 10px;
   border: 1px solid #ff00ff;
   box-shadow: 0 0 10px rgba(255, 0, 255, 0.8);
@@ -60,10 +37,8 @@ section {
 
 /* FOOTER */
 footer {
-  background: rgba(0, 0, 0, 0.9);
-  padding: 1.5rem;
   text-align: center;
-  color: #00ffff;
+  padding: 2rem;
 }
 
 /* DISCLAIMER & INFO BOXES */
@@ -74,7 +49,23 @@ footer {
   padding: 1.5rem;
   text-align: center;
   border-radius: 10px;
-  background: rgba(10, 10, 25, 0.95); /* 5% transparency */
+}
+
+/* DISCLAIMER BOX */
+.disclaimer {
+  background: rgba(10, 10, 25, 0.95);
+  border: 1px solid #ff00ff;
+  box-shadow: 0 0 10px rgba(255, 0, 255, 0.8);
+  color: #ff00ff;
+  font-size: 0.9rem;
+}
+
+/* CONTACT & BSC LINK BOX */
+.footer-box {
+  background: rgba(0, 0, 0, 0.95);
+  border: 1px solid #00ffff;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
+  color: #00ffff;
 }
 
 /* FOOTER LINKS */
@@ -87,4 +78,11 @@ footer {
 
 .footer-box a:hover {
   color: #ff00ff;
+}
+
+/* MOBILE FIXES */
+@media (max-width: 768px) {
+  section {
+    width: 90%;
+  }
 }
