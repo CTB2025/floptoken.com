@@ -7,11 +7,23 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'Orbitron', sans-serif;
-  background: url('flop_hd.png') no-repeat center center fixed;
-  background-size: cover;
+  background: #05050f; /* Solid background before image */
   color: #fff;
   text-shadow: 2px 2px 5px rgba(0, 255, 255, 0.8);
   text-align: center;
+}
+
+/* BACKGROUND IMAGE BELOW HEADER */
+body::after {
+  content: "";
+  position: fixed;
+  top: 100px; /* Moves the background down after header */
+  left: 0;
+  width: 100%;
+  height: calc(100vh - 100px);
+  background: url('flop_hd.png') no-repeat center top;
+  background-size: cover;
+  z-index: -1;
 }
 
 /* HEADER (Solid Background) */
@@ -22,6 +34,7 @@ header {
   justify-content: center;
   align-items: center;
   position: relative;
+  z-index: 10;
 }
 
 /* MAIN SECTIONS WITH TRANSPARENCY */
@@ -45,7 +58,7 @@ section {
   border-radius: 10px;
 }
 
-/* DISCLAIMER (Visible, No Transparency) */
+/* DISCLAIMER (Fully Visible) */
 .disclaimer {
   background: rgba(10, 10, 25, 1);
   border: 1px solid #ff00ff;
