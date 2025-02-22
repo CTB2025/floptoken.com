@@ -7,23 +7,10 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'Orbitron', sans-serif;
-  background: #05050f; /* Solid background before image */
+  background: #05050f; /* Dark futuristic background */
   color: #fff;
   text-shadow: 2px 2px 5px rgba(0, 255, 255, 0.8);
   text-align: center;
-}
-
-/* BACKGROUND IMAGE BELOW HEADER */
-body::after {
-  content: "";
-  position: fixed;
-  top: 100px; /* Moves the background down after header */
-  left: 0;
-  width: 100%;
-  height: calc(100vh - 100px);
-  background: url('flop_hd.png') no-repeat center top;
-  background-size: cover;
-  z-index: -1;
 }
 
 /* HEADER (Solid Background) */
@@ -37,12 +24,12 @@ header {
   z-index: 10;
 }
 
-/* MAIN SECTIONS WITH TRANSPARENCY */
+/* MAIN SECTIONS */
 section {
   max-width: 900px;
   margin: 2rem auto;
   padding: 1.5rem;
-  background: rgba(10, 10, 25, 0.95); /* 95% transparency */
+  background: rgba(10, 10, 25, 1); /* Fully solid */
   border-radius: 10px;
   border: 1px solid #ff00ff;
   box-shadow: 0 0 10px rgba(255, 0, 255, 0.8);
@@ -58,7 +45,7 @@ section {
   border-radius: 10px;
 }
 
-/* DISCLAIMER (Fully Visible) */
+/* DISCLAIMER */
 .disclaimer {
   background: rgba(10, 10, 25, 1);
   border: 1px solid #ff00ff;
