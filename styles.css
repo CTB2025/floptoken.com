@@ -9,7 +9,7 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'Orbitron', sans-serif;
-  background: radial-gradient(circle, #1a1a2e, #0f0f1f, #05050f);
+  background: url('flop_hd.png') center/cover no-repeat fixed;
   color: #fff;
   text-shadow: 2px 2px 5px rgba(0, 255, 255, 0.8);
   text-align: center;
@@ -17,15 +17,11 @@ html, body {
 
 /* HEADER */
 header {
-  text-align: center;
+  background: rgba(255, 0, 255, 0.2); /* 5% transparency */
   padding: 1.5rem;
-  background: linear-gradient(90deg, #ff00ff, #00ffff);
-  color: #000;
-}
-
-.header-content h1 {
-  font-size: 2.2rem;
-  text-shadow: 2px 2px 5px rgba(0, 255, 255, 1);
+  position: relative;
+  text-transform: uppercase;
+  box-shadow: 0 0 20px rgba(255, 0, 255, 0.8);
 }
 
 /* NAVIGATION */
@@ -56,10 +52,18 @@ section {
   max-width: 900px;
   margin: 2rem auto;
   padding: 1.5rem;
-  background: rgba(10, 10, 25, 0.9);
+  background: rgba(10, 10, 25, 0.95); /* 5% transparency */
   border-radius: 10px;
   border: 1px solid #ff00ff;
   box-shadow: 0 0 10px rgba(255, 0, 255, 0.8);
+}
+
+/* FOOTER */
+footer {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 1.5rem;
+  text-align: center;
+  color: #00ffff;
 }
 
 /* DISCLAIMER & INFO BOXES */
@@ -67,27 +71,10 @@ section {
 .footer-box {
   max-width: 700px;
   margin: 1rem auto;
-  align-items: center;
   padding: 1.5rem;
   text-align: center;
   border-radius: 10px;
-}
-
-/* DISCLAIMER */
-.disclaimer {
-  background: rgba(10, 10, 25, 0.9);
-  border: 1px solid #ff00ff;
-  box-shadow: 0 0 10px rgba(255, 0, 255, 0.8);
-  color: #ff00ff;
-  font-size: 0.9rem;
-}
-
-/* INFO BOX (EMAIL, LINK, COPYRIGHT) */
-.footer-box {
-  background: rgba(0, 0, 0, 0.9);
-  border: 1px solid #00ffff;
-  box-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
-  color: #00ffff;
+  background: rgba(10, 10, 25, 0.95); /* 5% transparency */
 }
 
 /* FOOTER LINKS */
@@ -100,20 +87,4 @@ section {
 
 .footer-box a:hover {
   color: #ff00ff;
-}
-
-/* 📱 MOBILE FIX */
-@media (max-width: 768px) {
-  header {
-    padding: 1rem;
-  }
-
-  .header-content h1 {
-    font-size: 1.5rem;
-  }
-
-  .footer-container {
-    flex-direction: column;
-    align-items: center;
-  }
 }
