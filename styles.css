@@ -13,15 +13,13 @@ html, body {
   text-shadow: 2px 2px 5px rgba(0, 255, 255, 0.8);
   text-align: center;
 }
-
 /* HEADER */
 header {
-  background: linear-gradient(90deg, #ff00ff, #00ffff);
+  background: rgba(255, 0, 255, 0.2); /* 5% transparency */
   padding: 1.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: relative;
+  text-transform: uppercase;
+  box-shadow: 0 0 20px rgba(255, 0, 255, 0.8);
 }
 
 /* MAIN SECTIONS WITH TRANSPARENCY */
