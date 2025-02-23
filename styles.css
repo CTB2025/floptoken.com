@@ -75,12 +75,6 @@ section {
   color: #ff00ff;
 }
 
-/* MOBILE FIXES */
-@media (max-width: 768px) {
-  section {
-    width: 90%;
-}/* 🚀 LANDING PAGE STYLING 🚀 */
-
 .landing {
   display: flex;
   justify-content: center;
