@@ -118,7 +118,7 @@ section {
   display: inline-block;
   padding: 1rem 2rem;
   font-size: 1.2rem;
-  color: #00ffff;  /* Default text color (Cyan) */
+  color: #ffffff;  /* Default text color (Cyan) */
   background: rgba(0, 0, 0, 1);  /* Match footer background */
   border: 1px solid #00ffff;
   border-radius: 5px;
