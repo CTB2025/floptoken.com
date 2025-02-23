@@ -25,6 +25,28 @@ header {
   z-index: 10;
 }
 
+/* Header Navigation Links */
+nav a {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  color: #ffffff;  /* White text */
+  background: rgba(0, 0, 0, 1);  /* Black background */
+  border: 1px solid #00ffff;
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect - Matches Airdrop Button */
+nav a:hover {
+  color: #ffffff;  /* White text stays */
+  border-color: #ff00ff;
+  box-shadow: 0 0 15px rgba(255, 0, 255, 0.8);
+}
+
 /* MAIN SECTIONS */
 section {
   max-width: 900px;
