@@ -113,34 +113,27 @@ section {
   transform: scale(1.1);
   box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
 }  
-/* Airdrop Section */
-#airdrop {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 1.5rem;
-  background: rgba(10, 10, 25, 0.95);
-  border-radius: 10px;
-  border: 1px solid #ff00ff;
-  box-shadow: 0 0 10px rgba(255, 0, 255, 0.8);
-  text-align: center;
-}
-
-/* Airdrop Button */
+/* Airdrop Button - Matches Footer Text Behavior */
 .airdrop-button {
   display: inline-block;
   padding: 1rem 2rem;
   font-size: 1.2rem;
-  color: #fff;
-  background: #ff00ff;
+  color: #00ffff;  /* Default text color (Cyan) */
+  background: rgba(0, 0, 0, 1);  /* Match footer background */
+  border: 1px solid #00ffff;
   border-radius: 5px;
   text-decoration: none;
-  box-shadow: 0 0 15px rgba(255, 0, 255, 0.8);
+  text-transform: uppercase;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
   transition: all 0.3s ease-in-out;
 }
 
+/* Hover Effect - Matches Footer Links */
 .airdrop-button:hover {
-  background: #00ffff;
-  box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
+  color: #ff00ff;  /* Change text to pink on hover */
+  border-color: #ff00ff;
+  box-shadow: 0 0 15px rgba(255, 0, 255, 0.8);
 }
+
 
 }
