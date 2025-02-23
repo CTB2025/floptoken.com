@@ -17,6 +17,7 @@ html, body {
 header {
   background: linear-gradient(90deg, #ff00ff, #00ffff);
   padding: 1.5rem;
+  color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
