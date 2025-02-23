@@ -113,7 +113,7 @@ section {
   transform: scale(1.1);
   box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
 }  
-  /* Airdrop Form Section */
+/* Airdrop Section */
 #airdrop {
   max-width: 800px;
   margin: 2rem auto;
@@ -125,11 +125,22 @@ section {
   text-align: center;
 }
 
-#airdrop iframe {
-  width: 100%;
-  height: 800px;
+/* Airdrop Button */
+.airdrop-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  color: #fff;
+  background: #ff00ff;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
+  text-decoration: none;
+  box-shadow: 0 0 15px rgba(255, 0, 255, 0.8);
+  transition: all 0.3s ease-in-out;
+}
+
+.airdrop-button:hover {
+  background: #00ffff;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
 }
 
 }
