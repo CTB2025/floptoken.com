@@ -29,7 +29,7 @@ header {
 nav a {
   display: inline-block;
   padding: 0.8rem 1.5rem;
-  font-size: 1rem;
+  font-size: .8rem;
   color: #ffffff;  /* White text */
   background: rgba(0, 0, 0, 1);  /* Black background */
   border: 1px solid #00ffff;
