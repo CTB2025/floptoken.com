@@ -130,8 +130,8 @@ section {
 
 /* Hover Effect - Matches Footer Links */
 .airdrop-button:hover {
-  color: #ff00ff;  /* Change text to pink on hover */
-  border-color: #ff00ff;
+  color: #00ffff;  /* Change text to pink on hover */
+  border-color: #00ffff;
   box-shadow: 0 0 15px rgba(255, 0, 255, 0.8);
 }
 
