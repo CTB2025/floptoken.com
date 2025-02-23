@@ -78,5 +78,39 @@ section {
 @media (max-width: 768px) {
   section {
     width: 90%;
-  }
+}/* 🚀 LANDING PAGE STYLING 🚀 */
+
+.landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background: linear-gradient(45deg, #ff00ff, #00ffff);
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.landing-container {
+  background: rgba(10, 10, 25, 0.95);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 0, 255, 0.8);
+  max-width: 600px;
+}
+
+/* FLOP Coin Image */
+.flop-coin {
+  width: 300px;
+  max-width: 80%;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 0 15px rgba(255, 0, 255, 0.8);
+}
+
+.flop-coin:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
+}  
 }
