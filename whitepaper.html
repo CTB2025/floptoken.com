@@ -15,7 +15,7 @@
     <h1>FLOP Coin Whitepaper</h1>
     
     <h2>Abstract</h2>
-    <p>FLOP Coin is a Binance Smart Chain (BSC)-based meme coin that integrates an AI-powered prediction market. Users can engage by voting on AI-generated predictions using FLOP tokens, with correct voters earning FlopXP (FXP). A portion of losing bets is burned, while winnings fuel FLOP buybacks, enhancing scarcity and market sustainability.</p>
+    <p>FLOP Coin is a Binance Smart Chain (BSC)-based meme coin that integrates an AI-powered prediction market. Users can engage by voting on AI-generated predictions using FLOP tokens, with correct voters earning FlopXP (FXP). A portion of losing bets is burned, while winnings fuel FLOP buybacks, enhancing scarcity and market sustainability. The system is designed to be scalable, with on-chain vote verification and efficient transaction batching.</p>
     
     <h2>1. Introduction</h2>
     <h3>1.1 Background</h3>
@@ -23,17 +23,17 @@
     
     <h3>1.2 Key Features</h3>
     <ul>
-        <li>AI-Powered Predictions</li>
-        <li>On-Chain Voting System</li>
-        <li>FlopXP Rewards</li>
-        <li>Deflationary Mechanism</li>
-        <li>Buyback System</li>
-        <li>Scalability</li>
+        <li><strong>AI-Powered Predictions</strong>: Machine learning models analyze historical and real-time data to generate price movement forecasts.</li>
+        <li><strong>On-Chain Voting System</strong>: Users place votes by paying FLOP tokens via a unique QR code.</li>
+        <li><strong>FlopXP Rewards</strong>: Users earn XP for correct predictions, enhancing future betting odds.</li>
+        <li><strong>Deflationary Mechanism</strong>: Losing bets are partially burned, reducing FLOP supply.</li>
+        <li><strong>Buyback System</strong>: A percentage of bet winnings funds periodic buybacks to maintain demand.</li>
+        <li><strong>Scalability</strong>: Batching transactions and using event-driven monitoring ensures efficiency.</li>
     </ul>
     
     <h2>2. Tokenomics</h2>
     <h3>2.1 Initial Supply & Distribution</h3>
-    <p>Total Supply: 300 Trillion FLOP</p>
+    <p>Total Supply: <strong>300 Trillion FLOP</strong></p>
     <ul>
         <li>50% Public Sale & Liquidity</li>
         <li>20% Ecosystem & Staking Rewards</li>
@@ -42,16 +42,39 @@
         <li>5% Reserve & Partnerships</li>
     </ul>
     
+    <h3>2.2 Transaction Fees</h3>
+    <p>Every FLOP transaction includes a <strong>3% fee</strong>:</p>
+    <ul>
+        <li><strong>1% Burn Fee</strong>: Reduces token supply.</li>
+        <li><strong>1% Betting Pool Fee</strong>: Funds future predictions.</li>
+        <li><strong>1% Buyback Fee</strong>: Helps sustain price stability.</li>
+    </ul>
+    
     <h2>3. AI-Powered Prediction Engine</h2>
     <h3>3.1 Market Data Analysis</h3>
-    <p>Utilizes real-time & historical data, technical indicators, and sentiment analysis to generate predictions.</p>
+    <p>Utilizes real-time & historical data, technical indicators (RSI, MACD, Moving Averages, Bollinger Bands), and sentiment analysis to generate predictions.</p>
+    
+    <h3>3.2 Prediction Model</h3>
+    <p>Uses Logistic Regression & Neural Networks to predict short-term price movements. Each prediction is assigned a confidence score before being sent to Telegram for voting.</p>
     
     <h2>4. Voting & Reward System</h2>
     <h3>4.1 Voting Mechanism</h3>
-    <p>Users vote on AI-generated predictions via FLOP tokens, with correct votes earning FlopXP rewards.</p>
+    <ol>
+        <li>AI generates a prediction (e.g., "BTC will rise 5% in 24h").</li>
+        <li>Users scan a QR code to pay FLOP tokens and vote (Thumbs Up/Down).</li>
+        <li>Votes are <strong>recorded on-chain</strong>, ensuring transparency.</li>
+        <li>When the event concludes, correct voters earn <strong>FlopXP rewards</strong>.</li>
+    </ol>
+    
+    <h3>4.2 FlopXP (FXP) & User Incentives</h3>
+    <ul>
+        <li>Earned FXP <strong>improves future betting multipliers</strong>.</li>
+        <li>XP functions can be <strong>paused or adjusted by governance</strong>.</li>
+        <li>Batch airdrops & staking incentives will drive adoption.</li>
+    </ul>
     
     <h2>5. Smart Contract & Security</h2>
-    <p>Includes features such as reentrancy protection, batch transactions, and a secure voting queue system.</p>
+    <p>Includes features such as <strong>reentrancy protection, batch transactions, and a secure voting queue system</strong>.</p>
     
     <h2>6. Roadmap</h2>
     <h3>Phase 1: Deployment & Live Testing (Completed)</h3>
@@ -70,6 +93,14 @@
     <ul>
         <li>Develop Telegram bot for QR-based voting.</li>
         <li>Launch FlopXP rewards system.</li>
+    </ul>
+    
+    <h3>Phase 4: Ecosystem Expansion & Scaling</h3>
+    <ul>
+        <li>Optimize transaction batching for high-throughput voting.</li>
+        <li>Expand AI models with deeper learning and predictive analytics.</li>
+        <li>Introduce additional staking and governance mechanisms.</li>
+        <li>Explore cross-chain expansion for interoperability.</li>
     </ul>
     
     <h2>7. Conclusion</h2>
