@@ -1,0 +1,10 @@
+<svg width="240" height="240" viewBox="-20 -20 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer Circles -->
+  <circle cx="100" cy="100" r="94" stroke="magenta" stroke-width="15" fill="none" />
+  <circle cx="100" cy="100" r="100" stroke="cyan" stroke-width="10" fill="none" />
+  <circle cx="100" cy="100" r="105" stroke="magenta" stroke-width="10" fill="none" />
+
+  <!-- Letter "f" -->
+  <text x="100" y="170" font-family="Arial" font-size="200" text-anchor="middle" fill="cyan">f</text>
+  <text x="100" y="175" font-family="Arial" font-size="200" text-anchor="middle" fill="magenta">f</text>
+</svg>
