@@ -1,5 +1,4 @@
 /* 🚀 FUTURISTIC VAPORWAVE THEME 🚀 */
-
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
 
 /* GLOBAL STYLING */
@@ -22,16 +21,15 @@ header {
   border-radius: 10px;
   border: 1px solid #ff00ff;
   box-shadow: 0 0 10px rgba(255, 0, 255, 0.8);
-  text-align: center;
 }
 
 /* Header Navigation Links */
 nav a {
   display: inline-block;
   padding: 0.8rem 1.5rem;
-  font-size: .8rem;
-  color: #ffffff;  /* White text */
-  background: rgba(0, 0, 0, 1);  /* Black background */
+  font-size: 0.8rem;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 1);
   border: 1px solid #00ffff;
   border-radius: 5px;
   text-decoration: none;
@@ -40,9 +38,8 @@ nav a {
   transition: all 0.3s ease-in-out;
 }
 
-/* Hover Effect - Matches Airdrop Button */
 nav a:hover {
-  color: #ffffff;  /* White text stays */
+  color: #ffffff;
   border-color: #ff00ff;
   box-shadow: 0 0 15px rgba(255, 0, 255, 0.8);
 }
@@ -52,96 +49,41 @@ section {
   max-width: 900px;
   margin: 2rem auto;
   padding: 1.5rem;
-  background: rgba(10, 10, 25, 1); /* Fully solid */
-  border-radius: 10px;
-  border: 1px solid #ff00ff;
-  box-shadow: 0 0 10px rgba(255, 0, 255, 0.8);
-}
-
-/* DISCLAIMER & FOOTER INFO BOXES */
-.disclaimer,
-.footer-box {
-  max-width: 700px;
-  margin: 1rem auto;
-  padding: 1.5rem;
-  text-align: center;
-  border-radius: 10px;
-}
-
-/* DISCLAIMER */
-.disclaimer {
   background: rgba(10, 10, 25, 1);
+  border-radius: 10px;
   border: 1px solid #ff00ff;
   box-shadow: 0 0 10px rgba(255, 0, 255, 0.8);
-  color: #ff00ff;
-  font-size: 0.9rem;
 }
 
-/* CONTACT & BSC LINK BOX */
+/* FOOTER */
+footer {
+  margin-top: 2rem;
+}
+
+/* Footer Box - matches section styling */
 .footer-box {
-  background: rgba(0, 0, 0, 1);
-  border: 1px solid #ff00ff;
-  box-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
-  color: #ff00ff;
-}
-
-/* FOOTER LINKS */
-.footer-box a {
-  color: #00ffff;
-  font-weight: bold;
-  text-decoration: none;
-  transition: color 0.3s ease-in-out;
-}
-
-.footer-box a:hover {
-  color: #ffffff;
-}
-
-/* MOBILE FIXES */
-@media (max-width: 768px) {
-  section {
-    width: 90%;
-}/* 🚀 LANDING PAGE STYLING 🚀 */
-.landing {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  text-align: center;
-  background: linear-gradient(45deg, #ff00ff, #00ffff);
-  color: #fff;
-  font-family: 'Orbitron', sans-serif;
-}
-
-.landing-container {
-  background: rgba(10, 10, 25, 0.95);
-  padding: 2rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: rgba(10, 10, 25, 1);
   border-radius: 10px;
-  box-shadow: 0 0 20px rgba(255, 0, 255, 0.8);
-  max-width: 600px;
+  border: 1px solid #ff00ff;
+  box-shadow: 0 0 10px rgba(255, 0, 255, 0.8);
+  color: #fff;
 }
 
-/* FLOP Coin Image */
-.flop-coin {
-  width: 300px;
-  max-width: 80%;
-  margin-top: 1rem;
-  cursor: pointer;
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  box-shadow: 0 0 15px rgba(255, 0, 255, 0.8);
+.footer-box h2 {
+  margin-bottom: 1rem;
 }
 
-.flop-coin:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
-}  
-/* Airdrop Button */
-.airdrop-button {
+/* Footer Navigation Links */
+.footer-box nav a {
   display: inline-block;
-  padding: 1rem 2rem;
-  font-size: 1.2rem;
-  color: #ffffff;  
-  background: rgba(0, 0, 0, 1);  
+  margin: 0.5rem;
+  padding: 0.8rem 1.5rem;
+  font-size: 0.8rem;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 1);
   border: 1px solid #00ffff;
   border-radius: 5px;
   text-decoration: none;
@@ -150,12 +92,27 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-/* Hover Effect */
-.airdrop-button:hover {
-  color: #ffffff;  
-  border-color: #ffffff;
+.footer-box nav a:hover {
+  color: #ffffff;
+  border-color: #ff00ff;
   box-shadow: 0 0 15px rgba(255, 0, 255, 0.8);
 }
 
+/* Footer Copyright */
+.footer-copy {
+  max-width: 900px;
+  margin: 1rem auto;
+  padding: 1.5rem;
+  text-align: center;
+  color: #fff;
+}
 
+/* MOBILE FIXES */
+@media (max-width: 768px) {
+  header,
+  section,
+  .footer-box,
+  .footer-copy {
+    width: 90%;
+  }
 }
