@@ -127,7 +127,7 @@ footer {
     width: 300px;       /* Adjust as needed */
     height: 100%;
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     opacity: 0.2;       /* Adjust opacity for subtlety */
     pointer-events: none;
     z-index: -1;        /* Keeps them behind your content */
