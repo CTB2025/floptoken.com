@@ -116,3 +116,32 @@ footer {
     width: 90%;
   }
 }
+
+/* Axon/Circuit Decorative Patterns for Desktop */
+@media (min-width: 1024px) {
+  body::before,
+  body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    width: 300px;       /* Adjust as needed */
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.2;       /* Adjust opacity for subtlety */
+    pointer-events: none;
+    z-index: -1;        /* Keeps them behind your content */
+  }
+
+  /* Left side decoration */
+  body::before {
+    left: 0;
+    background-image: url('axon-pattern.svg');
+  }
+
+  /* Right side decoration using the reversed SVG */
+  body::after {
+    right: 0;
+    background-image: url('axon-pattern-reverse.svg');
+  }
+}
